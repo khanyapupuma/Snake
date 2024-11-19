@@ -1,0 +1,26 @@
+canvas {
+    border: 2px solid rgb(245, 243, 243);
+    display: block;
+    margin: 50px auto;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+  }
+  
+body{
+    color: white;
+    background-color: purple;
+}
+
+button{
+    color: purple;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    margin-left: 516px;
+    border-radius: 4px;
+}
+button:hover{
+    scale: 1.1;
+    color: rgb(193, 41, 193);
+}
