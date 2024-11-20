@@ -123,7 +123,7 @@ function drawBox(x, y, color) {
     // Add new head position
     let newHead = { x: headX, y: headY };
   
-    // Check for collisions with itself (game over condition)
+    // Check for collisions with itself
     if (collision(newHead, snake)) {
       clearInterval(game);
       alert('Game Over');
@@ -136,5 +136,5 @@ function drawBox(x, y, color) {
 
   // Restart page button event handler
 restartPageButton.addEventListener('click', () => {
-    window.location.reload(); // This reloads the current page
+    window.location.reload(); 
   });
